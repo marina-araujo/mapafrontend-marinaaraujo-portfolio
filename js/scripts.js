@@ -1,4 +1,4 @@
-// Função para mudar de tamanho:
+// Efeito interativo 1 (sobre visibilidade ou não da barra de menu de acordo com tamanho da tela):
 
 function mudouTamanho() {
     const itens = document.querySelector('header nav');
@@ -9,7 +9,7 @@ function mudouTamanho() {
     }
 }
 
-// Menu Hambúrguer:
+// Efeito interativo 2 (sobre visibilidade do menu em telas pequenas a partir do clique do ícone de "hamburguer"):
 
 function clickMenu() {
     const itens = document.querySelector('header nav');
